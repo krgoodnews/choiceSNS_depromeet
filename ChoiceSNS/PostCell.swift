@@ -17,18 +17,25 @@ class PostCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
+        self.selectionStyle = .none// 셀 하이라이팅 안되게 하기
+    
+        
+        
         // 이미지버튼 클릭 인식
         let gestureRecognizerAuthor = UITapGestureRecognizer(target: self, action: #selector(didTapImg(gesture:)))
-        let gestureRecognizerPlanA = UITapGestureRecognizer(target: self, action: #selector(didTapImg(gesture:)))
-        let gestureRecognizerPlanB = UITapGestureRecognizer(target: self, action: #selector(didTapImg(gesture:)))
+        let gestureRecognizerPlanADoubleTap = UITapGestureRecognizer(target: self, action: #selector(didTapImg(gesture:)))
+        let gestureRecognizerPlanBDoubleTap = UITapGestureRecognizer(target: self, action: #selector(didTapImg(gesture:)))
         
+        gestureRecognizerPlanADoubleTap.numberOfTapsRequired = 2
+        gestureRecognizerPlanBDoubleTap.numberOfTapsRequired = 2
+
         imgAuthor.isUserInteractionEnabled = true
         imgPlanA.isUserInteractionEnabled = true
         imgPlanB.isUserInteractionEnabled = true
 
         imgAuthor.addGestureRecognizer(gestureRecognizerAuthor)
-        imgPlanA.addGestureRecognizer(gestureRecognizerPlanA)
-        imgPlanB.addGestureRecognizer(gestureRecognizerPlanB)
+        imgPlanA.addGestureRecognizer(gestureRecognizerPlanADoubleTap)
+        imgPlanB.addGestureRecognizer(gestureRecognizerPlanBDoubleTap)
 
     }
 

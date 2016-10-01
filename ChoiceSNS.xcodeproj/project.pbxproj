@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3196DF058CE769C0E225C740 /* Pods_ChoiceSNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9120481EDDB2E97D1FC61ED2 /* Pods_ChoiceSNS.framework */; };
 		EF774A581D9E15E500C773E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF774A571D9E15E500C773E5 /* AppDelegate.swift */; };
 		EF774A5A1D9E15E500C773E5 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF774A591D9E15E500C773E5 /* MainVC.swift */; };
 		EF774A5D1D9E15E500C773E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF774A5B1D9E15E500C773E5 /* Main.storyboard */; };
@@ -31,6 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		801667A7049CFB4A78E5F316 /* Pods-ChoiceSNS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoiceSNS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChoiceSNS/Pods-ChoiceSNS.debug.xcconfig"; sourceTree = "<group>"; };
+		90295E4374F8CEC836CA9D4F /* Pods-ChoiceSNS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoiceSNS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChoiceSNS/Pods-ChoiceSNS.release.xcconfig"; sourceTree = "<group>"; };
+		9120481EDDB2E97D1FC61ED2 /* Pods_ChoiceSNS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChoiceSNS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF774A541D9E15E500C773E5 /* ChoiceSNS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChoiceSNS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF774A571D9E15E500C773E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF774A591D9E15E500C773E5 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -61,18 +65,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3196DF058CE769C0E225C740 /* Pods_ChoiceSNS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2884581C5276EBDE8F9A5113 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9120481EDDB2E97D1FC61ED2 /* Pods_ChoiceSNS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7881F56E08EAE7CDBB84142C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				801667A7049CFB4A78E5F316 /* Pods-ChoiceSNS.debug.xcconfig */,
+				90295E4374F8CEC836CA9D4F /* Pods-ChoiceSNS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EF774A4B1D9E15E500C773E5 = {
 			isa = PBXGroup;
 			children = (
 				EF774A561D9E15E500C773E5 /* ChoiceSNS */,
 				EFE5E47A1D9EA4AC0078FB78 /* Resources */,
 				EF774A551D9E15E500C773E5 /* Products */,
+				7881F56E08EAE7CDBB84142C /* Pods */,
+				2884581C5276EBDE8F9A5113 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF774A661D9E15E500C773E5 /* Build configuration list for PBXNativeTarget "ChoiceSNS" */;
 			buildPhases = (
+				02C69ED5DE507FD67EB2631C /* [CP] Check Pods Manifest.lock */,
 				EF774A501D9E15E500C773E5 /* Sources */,
 				EF774A511D9E15E500C773E5 /* Frameworks */,
 				EF774A521D9E15E500C773E5 /* Resources */,
+				3EA691A37AE5E212DDA72011 /* [CP] Embed Pods Frameworks */,
+				380092FE7E398396B3D50839 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,6 +197,7 @@
 					EF774A531D9E15E500C773E5 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 827YX997NH;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -212,6 +240,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02C69ED5DE507FD67EB2631C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		380092FE7E398396B3D50839 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChoiceSNS/Pods-ChoiceSNS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EA691A37AE5E212DDA72011 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChoiceSNS/Pods-ChoiceSNS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EF774A501D9E15E500C773E5 /* Sources */ = {
@@ -346,6 +422,7 @@
 		};
 		EF774A671D9E15E500C773E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 801667A7049CFB4A78E5F316 /* Pods-ChoiceSNS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 827YX997NH;
@@ -359,6 +436,7 @@
 		};
 		EF774A681D9E15E500C773E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90295E4374F8CEC836CA9D4F /* Pods-ChoiceSNS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 827YX997NH;

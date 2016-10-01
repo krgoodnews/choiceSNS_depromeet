@@ -1,0 +1,12 @@
+PODS:
+  - ALCameraViewController (1.2.5)
+
+DEPENDENCIES:
+  - ALCameraViewController
+
+SPEC CHECKSUMS:
+  ALCameraViewController: 3ce731eed0b58f2791ce7404f9d039d10f2235c3
+
+PODFILE CHECKSUM: 13deff27742d1df81d435644de9f584c3f9412c5
+
+COCOAPODS: 1.0.1

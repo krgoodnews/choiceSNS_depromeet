@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import ALCameraViewController
+
 
 class WritePostVC: UIViewController {
 
@@ -15,10 +17,13 @@ class WritePostVC: UIViewController {
     @IBOutlet weak var txfdPlanB: UITextField!
     @IBOutlet weak var btnShare: UIBarButtonItem!
     
+    @IBOutlet weak var btnPlanA: UIButton!
+    @IBOutlet weak var btnPlanB: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
         // Do any additional setup after loading the view.
     }
 
@@ -32,27 +37,51 @@ class WritePostVC: UIViewController {
         print("공유버튼 클릭")
         
         var user = customUser()
-        user.name = "nilAuthor"
+        user.name = "krgoodnews"
         
         var planA = Plan()
-        planA.img = UIImage(named: "imgPlan1_A.jpeg")
+        planA.img = btnPlanA.backgroundImage(for: .normal)
         planA.text = txfdPlanA.text!
         
         var planB = Plan()
         planB.img = UIImage(named: "imgPlan1_B.jpeg")
+        planB.img = btnPlanB.backgroundImage(for: .normal)
         planB.text = txfdPlanB.text!
         
         let barViewControllers = self.tabBarController?.viewControllers
         let postsVC = barViewControllers?[0] as! MainVC
         
-        postsVC.postList.append(customPost(writer: user, planA: planA, planB: planB, title: txfdTitle.text!))
+//        postsVC.postList.append(customPost(writer: user, planA: planA, planB: planB, title: txfdTitle.text!))
+        postsVC.postList.insert(customPost(writer: user, planA: planA, planB: planB, title: txfdTitle.text!), at: 0)
         postsVC.tblPost.reloadData()
         
+        cleanThisView()
+        
+        self.tabBarController?.selectedIndex = 0
+    }
+    
+    @IBAction func didTapBtnPlan(_ sender: UIButton) {
+        let croppingEnabled = true
+        let libraryViewController = CameraViewController.imagePickerViewController(croppingEnabled) {image, asset in
+            
+            // Do something with your image here.
+            // If cropping is enabled this image will be the cropped version
+            print("자르기완료")
+            sender.setBackgroundImage(image, for: UIControlState.normal)
+            sender.setTitle(nil, for: .normal)
+            self.dismiss(animated: true, completion: nil)
+        }
+        
+        present(libraryViewController, animated: true, completion: nil)
+    }
+    
+    func cleanThisView() {
         txfdTitle.text = nil
         txfdPlanA.text = nil
         txfdPlanB.text = nil
         
-        self.tabBarController?.selectedIndex = 0
+        btnPlanA.setBackgroundImage(nil, for: .normal)
+        btnPlanB.setBackgroundImage(nil, for: .normal)
     }
     
     // MARK: - Navigation

@@ -14,6 +14,12 @@ class customPost {
     var planB = Plan()
     var title: String?
     
+    init()
+    {
+        self.author.name = "testGoodnews"
+        self.title = "이것은 테스트용입니당"
+        
+    }
     init(writer: customUser, planA: Plan, planB: Plan, title: String) {
         self.author = writer
         self.title = title

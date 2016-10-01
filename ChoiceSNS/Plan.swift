@@ -13,4 +13,9 @@ struct Plan {
     var text: String?
     var img: UIImage?
     var choice = false
+    
+    init() {
+        self.text = "테스트 플랜"
+        self.img = UIImage(named: "imgMoon.jpeg")
+    }
 }

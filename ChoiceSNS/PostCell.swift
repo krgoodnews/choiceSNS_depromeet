@@ -30,11 +30,10 @@ class PostCell: UITableViewCell {
         self.selectionStyle = .none// 셀 하이라이팅 안되게 하기
         
         
-        
         //         이미지버튼 클릭 인식
-        let gestureRecognizerAuthor = UITapGestureRecognizer(target: self, action: #selector(didTapImg(gesture:)))
-        let gestureRecognizerPlanADoubleTap = UITapGestureRecognizer(target: self, action: #selector(didTapImg(gesture:)))
-        let gestureRecognizerPlanBDoubleTap = UITapGestureRecognizer(target: self, action: #selector(didTapImg(gesture:)))
+        let gestureRecognizerAuthor = UITapGestureRecognizer(target: self, action: #selector(didTapImg(_:)))
+        let gestureRecognizerPlanADoubleTap = UITapGestureRecognizer(target: self, action: #selector(didTapImg(_:)))
+        let gestureRecognizerPlanBDoubleTap = UITapGestureRecognizer(target: self, action: #selector(didTapImg(_:)))
         
         gestureRecognizerPlanADoubleTap.numberOfTapsRequired = 2
         gestureRecognizerPlanBDoubleTap.numberOfTapsRequired = 2
@@ -61,7 +60,7 @@ class PostCell: UITableViewCell {
         self.blurPlanB.alpha = 0
     }
     
-    func didTapImg(gesture: UIGestureRecognizer) {
+    func didTapImg(_ gesture: UIGestureRecognizer) {
         if gesture.view as? UIImageView == imgAuthor {
             print("작가 선택")
             print(gesture.view?.tag)

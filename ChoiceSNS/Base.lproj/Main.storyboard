@@ -29,17 +29,23 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RM3-xt-L1b">
-                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="RM3-xt-L1b" secondAttribute="height" multiplier="1:1" id="HFU-Ht-bSp"/>
                                 </constraints>
                                 <state key="normal" title="PlanA"/>
+                                <connections>
+                                    <action selector="didTapBtnPlan:" destination="cVp-K1-mbd" eventType="touchUpInside" id="vAH-Jb-yYV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8T-RY-d5P">
-                                <color key="backgroundColor" red="0.99215686270000003" green="0.74509803919999995" blue="0.43137254899999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="PlanB"/>
+                                <connections>
+                                    <action selector="didTapBtnPlan:" destination="cVp-K1-mbd" eventType="touchUpInside" id="RVV-4i-pGA"/>
+                                </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j9Y-5O-fmj">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Plan A" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j9Y-5O-fmj">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="97" id="iIK-vy-8xW"/>
                                     <constraint firstAttribute="height" constant="30" id="v6i-1L-K8g"/>
@@ -48,7 +54,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zzl-76-Zj4">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Plan B" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zzl-76-Zj4">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="97" id="Kdo-Yd-1AZ"/>
                                     <constraint firstAttribute="height" constant="30" id="zh6-pB-Xxu"/>
@@ -92,6 +98,8 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="btnPlanA" destination="RM3-xt-L1b" id="gRY-qo-PUh"/>
+                        <outlet property="btnPlanB" destination="a8T-RY-d5P" id="gV0-TB-fpp"/>
                         <outlet property="btnShare" destination="cSu-g9-RjC" id="oIE-QA-ab7"/>
                         <outlet property="txfdPlanA" destination="j9Y-5O-fmj" id="TGh-75-nMZ"/>
                         <outlet property="txfdPlanB" destination="Zzl-76-Zj4" id="Qzs-BJ-DWe"/>

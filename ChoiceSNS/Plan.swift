@@ -7,8 +7,10 @@
 //
 
 import Foundation
+import UIKit
 
 struct Plan {
     var text: String?
-    var choiceThisPlan = false
+    var img: UIImage?
+    var choice = false
 }

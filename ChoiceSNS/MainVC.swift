@@ -24,9 +24,9 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         tblPost.delegate = self
         tblPost.dataSource = self
         
-        for _ in 1...12 {
-            postList.append(customPost())
-        }
+//        for _ in 1...2 {
+//            postList.append(customPost(writer: customUser, planA: Plan, planB: Plan))
+//        }
     }
     
     override func didReceiveMemoryWarning() {
@@ -45,7 +45,17 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: PostCell = self.tblPost.dequeueReusableCell(withIdentifier: "cellPost", for: indexPath) as! PostCell
+        let post = postList[indexPath.row]
         
+        cell.lblAuthor.text = post.author.name!
+        cell.lblSituation.text = post.title!
+        
+        cell.imgPlanA.image = post.planA.img
+        cell.lblPlanA.text = post.planA.text!
+
+        cell.imgPlanB.image = post.planB.img
+        cell.lblPlanB.text = post.planB.text!
+
         return cell
         
     }

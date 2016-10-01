@@ -12,4 +12,12 @@ class customPost {
     var author = customUser()
     var planA = Plan()
     var planB = Plan()
+    var title: String?
+    
+    init(writer: customUser, planA: Plan, planB: Plan, title: String) {
+        self.author = writer
+        self.title = title
+        self.planA = planA
+        self.planB = planB
+    }
 }

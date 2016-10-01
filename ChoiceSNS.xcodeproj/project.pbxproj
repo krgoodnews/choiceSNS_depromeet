@@ -19,6 +19,9 @@
 		EF774A721D9E21DB00C773E5 /* PostTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF774A711D9E21DB00C773E5 /* PostTableView.swift */; };
 		EF774A771D9E69F500C773E5 /* customUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF774A761D9E69F500C773E5 /* customUser.swift */; };
 		EF774A791D9E6AEB00C773E5 /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF774A781D9E6AEB00C773E5 /* Plan.swift */; };
+		EFAA4E691D9FE6B3007B098C /* imgPlan1_A.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EFAA4E671D9FE6B3007B098C /* imgPlan1_A.jpeg */; };
+		EFAA4E6A1D9FE6B3007B098C /* imgPlan1_B.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EFAA4E681D9FE6B3007B098C /* imgPlan1_B.jpeg */; };
+		EFAA4E6C1D9FEAF0007B098C /* WritePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAA4E6B1D9FEAF0007B098C /* WritePostVC.swift */; };
 		EFE5E4701D9E872E0078FB78 /* imgMoon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EFE5E46F1D9E872E0078FB78 /* imgMoon.jpeg */; };
 		EFE5E4721D9E8AE40078FB78 /* customPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE5E4711D9E8AE40078FB78 /* customPost.swift */; };
 		EFE5E4771D9EA0C40078FB78 /* PlanBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE5E4761D9EA0C40078FB78 /* PlanBlurView.swift */; };
@@ -42,6 +45,9 @@
 		EF774A711D9E21DB00C773E5 /* PostTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableView.swift; sourceTree = "<group>"; };
 		EF774A761D9E69F500C773E5 /* customUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customUser.swift; sourceTree = "<group>"; };
 		EF774A781D9E6AEB00C773E5 /* Plan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
+		EFAA4E671D9FE6B3007B098C /* imgPlan1_A.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgPlan1_A.jpeg; sourceTree = "<group>"; };
+		EFAA4E681D9FE6B3007B098C /* imgPlan1_B.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgPlan1_B.jpeg; sourceTree = "<group>"; };
+		EFAA4E6B1D9FEAF0007B098C /* WritePostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WritePostVC.swift; sourceTree = "<group>"; };
 		EFE5E46F1D9E872E0078FB78 /* imgMoon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgMoon.jpeg; sourceTree = "<group>"; };
 		EFE5E4711D9E8AE40078FB78 /* customPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customPost.swift; sourceTree = "<group>"; };
 		EFE5E4761D9EA0C40078FB78 /* PlanBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanBlurView.swift; sourceTree = "<group>"; };
@@ -110,6 +116,7 @@
 				EF774A711D9E21DB00C773E5 /* PostTableView.swift */,
 				EF774A6F1D9E1F1800C773E5 /* PostCell.swift */,
 				EFE5E47D1D9EA7BE0078FB78 /* MiniCommentTableView.swift */,
+				EFAA4E6B1D9FEAF0007B098C /* WritePostVC.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -117,6 +124,8 @@
 		EFE5E47A1D9EA4AC0078FB78 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EFAA4E671D9FE6B3007B098C /* imgPlan1_A.jpeg */,
+				EFAA4E681D9FE6B3007B098C /* imgPlan1_B.jpeg */,
 				EF774A691D9E1ED900C773E5 /* imgJjajang.jpg */,
 				EF774A6A1D9E1ED900C773E5 /* imgJJmaBBong.jpeg */,
 				EF774A6B1D9E1ED900C773E5 /* imgProfile.jpg */,
@@ -191,9 +200,11 @@
 				EFE5E47C1D9EA5C50078FB78 /* iconBubble.png in Resources */,
 				EF774A6D1D9E1ED900C773E5 /* imgJJmaBBong.jpeg in Resources */,
 				EF774A621D9E15E500C773E5 /* LaunchScreen.storyboard in Resources */,
+				EFAA4E6A1D9FE6B3007B098C /* imgPlan1_B.jpeg in Resources */,
 				EF774A5F1D9E15E500C773E5 /* Assets.xcassets in Resources */,
 				EFE5E4791D9EA4A50078FB78 /* iconCircleChart.png in Resources */,
 				EF774A5D1D9E15E500C773E5 /* Main.storyboard in Resources */,
+				EFAA4E691D9FE6B3007B098C /* imgPlan1_A.jpeg in Resources */,
 				EFE5E4701D9E872E0078FB78 /* imgMoon.jpeg in Resources */,
 				EF774A6C1D9E1ED900C773E5 /* imgJjajang.jpg in Resources */,
 				EF774A6E1D9E1ED900C773E5 /* imgProfile.jpg in Resources */,
@@ -211,6 +222,7 @@
 				EF774A5A1D9E15E500C773E5 /* MainVC.swift in Sources */,
 				EF774A581D9E15E500C773E5 /* AppDelegate.swift in Sources */,
 				EF774A791D9E6AEB00C773E5 /* Plan.swift in Sources */,
+				EFAA4E6C1D9FEAF0007B098C /* WritePostVC.swift in Sources */,
 				EFE5E47E1D9EA7BE0078FB78 /* MiniCommentTableView.swift in Sources */,
 				EFE5E4721D9E8AE40078FB78 /* customPost.swift in Sources */,
 				EF774A771D9E69F500C773E5 /* customUser.swift in Sources */,

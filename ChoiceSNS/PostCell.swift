@@ -16,6 +16,10 @@ class PostCell: UITableViewCell {
     @IBOutlet weak var lblAuthor: UILabel!
     @IBOutlet weak var lblSituation: UILabel!
     
+    @IBOutlet weak var lblPlanA: UILabel!
+    @IBOutlet weak var lblPlanB: UILabel!
+    
+    
     @IBOutlet weak var blurPlanA: UIVisualEffectView!
     @IBOutlet weak var blurPlanB: UIVisualEffectView!
     

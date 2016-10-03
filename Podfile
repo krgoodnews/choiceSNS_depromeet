@@ -6,8 +6,10 @@ target 'ChoiceSNS' do
   use_frameworks!
   pod 'ALCameraViewController'
   pod 'Firebase'
+  pod 'Firebase/Core'
   pod 'Firebase/Database'
   pod 'Firebase/Auth'
+  pod 'PasswordTextField'
 
   # Pods for ChoiceSNS
 

@@ -20,6 +20,12 @@
 		EF774A721D9E21DB00C773E5 /* PostTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF774A711D9E21DB00C773E5 /* PostTableView.swift */; };
 		EF774A771D9E69F500C773E5 /* customUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF774A761D9E69F500C773E5 /* customUser.swift */; };
 		EF774A791D9E6AEB00C773E5 /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF774A781D9E6AEB00C773E5 /* Plan.swift */; };
+		EF7D7ABC1DA175890005AEBB /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7D7ABB1DA175890005AEBB /* SignInVC.swift */; };
+		EF7D7AC21DA17A080005AEBB /* iconMonster.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7D7ABD1DA17A080005AEBB /* iconMonster.png */; };
+		EF7D7AC31DA17A080005AEBB /* iconBell.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7D7ABE1DA17A080005AEBB /* iconBell.png */; };
+		EF7D7AC41DA17A080005AEBB /* iocnSearch.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7D7ABF1DA17A080005AEBB /* iocnSearch.png */; };
+		EF7D7AC51DA17A080005AEBB /* iconUser.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7D7AC01DA17A080005AEBB /* iconUser.png */; };
+		EF7D7AC61DA17A080005AEBB /* iconHome.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7D7AC11DA17A080005AEBB /* iconHome.png */; };
 		EFAA4E691D9FE6B3007B098C /* imgPlan1_A.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EFAA4E671D9FE6B3007B098C /* imgPlan1_A.jpeg */; };
 		EFAA4E6A1D9FE6B3007B098C /* imgPlan1_B.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EFAA4E681D9FE6B3007B098C /* imgPlan1_B.jpeg */; };
 		EFAA4E6C1D9FEAF0007B098C /* WritePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAA4E6B1D9FEAF0007B098C /* WritePostVC.swift */; };
@@ -49,6 +55,12 @@
 		EF774A711D9E21DB00C773E5 /* PostTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableView.swift; sourceTree = "<group>"; };
 		EF774A761D9E69F500C773E5 /* customUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customUser.swift; sourceTree = "<group>"; };
 		EF774A781D9E6AEB00C773E5 /* Plan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
+		EF7D7ABB1DA175890005AEBB /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		EF7D7ABD1DA17A080005AEBB /* iconMonster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconMonster.png; sourceTree = "<group>"; };
+		EF7D7ABE1DA17A080005AEBB /* iconBell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconBell.png; sourceTree = "<group>"; };
+		EF7D7ABF1DA17A080005AEBB /* iocnSearch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iocnSearch.png; sourceTree = "<group>"; };
+		EF7D7AC01DA17A080005AEBB /* iconUser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconUser.png; sourceTree = "<group>"; };
+		EF7D7AC11DA17A080005AEBB /* iconHome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconHome.png; sourceTree = "<group>"; };
 		EFAA4E671D9FE6B3007B098C /* imgPlan1_A.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgPlan1_A.jpeg; sourceTree = "<group>"; };
 		EFAA4E681D9FE6B3007B098C /* imgPlan1_B.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgPlan1_B.jpeg; sourceTree = "<group>"; };
 		EFAA4E6B1D9FEAF0007B098C /* WritePostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WritePostVC.swift; sourceTree = "<group>"; };
@@ -87,6 +99,13 @@
 				90295E4374F8CEC836CA9D4F /* Pods-ChoiceSNS.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF400C081DA20E770028E9FC /* SignUpViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SignUpViews;
 			sourceTree = "<group>";
 		};
 		EF774A4B1D9E15E500C773E5 = {
@@ -135,12 +154,14 @@
 		EFE5E4731D9EA04D0078FB78 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EF400C081DA20E770028E9FC /* SignUpViews */,
 				EFE5E4761D9EA0C40078FB78 /* PlanBlurView.swift */,
 				EF774A591D9E15E500C773E5 /* MainVC.swift */,
 				EF774A711D9E21DB00C773E5 /* PostTableView.swift */,
 				EF774A6F1D9E1F1800C773E5 /* PostCell.swift */,
 				EFE5E47D1D9EA7BE0078FB78 /* MiniCommentTableView.swift */,
 				EFAA4E6B1D9FEAF0007B098C /* WritePostVC.swift */,
+				EF7D7ABB1DA175890005AEBB /* SignInVC.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -148,6 +169,11 @@
 		EFE5E47A1D9EA4AC0078FB78 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EF7D7ABD1DA17A080005AEBB /* iconMonster.png */,
+				EF7D7ABE1DA17A080005AEBB /* iconBell.png */,
+				EF7D7ABF1DA17A080005AEBB /* iocnSearch.png */,
+				EF7D7AC01DA17A080005AEBB /* iconUser.png */,
+				EF7D7AC11DA17A080005AEBB /* iconHome.png */,
 				EFAA4E671D9FE6B3007B098C /* imgPlan1_A.jpeg */,
 				EFAA4E681D9FE6B3007B098C /* imgPlan1_B.jpeg */,
 				EF774A691D9E1ED900C773E5 /* imgJjajang.jpg */,
@@ -226,9 +252,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFE5E47C1D9EA5C50078FB78 /* iconBubble.png in Resources */,
+				EF7D7AC61DA17A080005AEBB /* iconHome.png in Resources */,
+				EF7D7AC31DA17A080005AEBB /* iconBell.png in Resources */,
 				EF774A6D1D9E1ED900C773E5 /* imgJJmaBBong.jpeg in Resources */,
 				EF774A621D9E15E500C773E5 /* LaunchScreen.storyboard in Resources */,
+				EF7D7AC51DA17A080005AEBB /* iconUser.png in Resources */,
+				EF7D7AC21DA17A080005AEBB /* iconMonster.png in Resources */,
 				EFAA4E6A1D9FE6B3007B098C /* imgPlan1_B.jpeg in Resources */,
+				EF7D7AC41DA17A080005AEBB /* iocnSearch.png in Resources */,
 				EF774A5F1D9E15E500C773E5 /* Assets.xcassets in Resources */,
 				EFE5E4791D9EA4A50078FB78 /* iconCircleChart.png in Resources */,
 				EF774A5D1D9E15E500C773E5 /* Main.storyboard in Resources */,
@@ -301,6 +332,7 @@
 				EFAA4E6C1D9FEAF0007B098C /* WritePostVC.swift in Sources */,
 				EFE5E47E1D9EA7BE0078FB78 /* MiniCommentTableView.swift in Sources */,
 				EFE5E4721D9E8AE40078FB78 /* customPost.swift in Sources */,
+				EF7D7ABC1DA175890005AEBB /* SignInVC.swift in Sources */,
 				EF774A771D9E69F500C773E5 /* customUser.swift in Sources */,
 				EF774A701D9E1F1800C773E5 /* PostCell.swift in Sources */,
 				EF774A721D9E21DB00C773E5 /* PostTableView.swift in Sources */,

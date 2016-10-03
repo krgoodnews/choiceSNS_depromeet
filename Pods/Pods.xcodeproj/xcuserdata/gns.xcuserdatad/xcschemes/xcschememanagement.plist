@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>PasswordTextField-PasswordTextField.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PasswordTextField.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-ChoiceSNS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,7 +27,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>9B2954F98B0C0051B05E237DB965785D</key>
+		<key>8070A5E836A878B9D3DBB7A9AD95A34D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>90FAFD2FD4482558F13987F3B56380B0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CD224835B4F019D856E8192E2C5744D6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

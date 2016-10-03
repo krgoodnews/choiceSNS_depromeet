@@ -31,12 +31,15 @@ PODS:
   - GoogleSymbolUtilities (1.1.1)
   - GoogleUtilities (1.3.1):
     - GoogleSymbolUtilities (~> 1.0)
+  - PasswordTextField (1.0.4)
 
 DEPENDENCIES:
   - ALCameraViewController
   - Firebase
   - Firebase/Auth
+  - Firebase/Core
   - Firebase/Database
+  - PasswordTextField
 
 SPEC CHECKSUMS:
   ALCameraViewController: 3ce731eed0b58f2791ce7404f9d039d10f2235c3
@@ -49,7 +52,8 @@ SPEC CHECKSUMS:
   GoogleNetworkingUtilities: 3e83269048cfb498dc7ec83ab36813360965c74f
   GoogleSymbolUtilities: 33117db1b5f290c6fbf259585e4885b4c84b98d7
   GoogleUtilities: 56c5ac05b7aa5dc417a1bb85221a9516e04d7032
+  PasswordTextField: 1fccb24dd769cfc963f1f60cb9fece692ad40530
 
-PODFILE CHECKSUM: 3fab75249c27e6d3ac5c588575ffbfbd103648d4
+PODFILE CHECKSUM: 3cc2816e796cac5bc3447e2ac3cdd947ed170a74
 
 COCOAPODS: 1.0.1

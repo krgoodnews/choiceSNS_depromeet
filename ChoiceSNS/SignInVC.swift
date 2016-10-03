@@ -31,7 +31,6 @@ class SignInVC: UIViewController {
     }
 
     override func viewDidAppear(_ animated: Bool) {
-        //self.performSegue(withIdentifier: "segAutoLogin", sender: self)
 
     }
     override func didReceiveMemoryWarning() {
@@ -43,12 +42,17 @@ class SignInVC: UIViewController {
         if passwordTextField.isInvalid()
         {
             //Swhos the error if the password is invalid, as an example is using an alert view but you can show it anyway you want
-            let alert = UIAlertController(title: "Alert", message: passwordTextField.errorMessage(), preferredStyle: UIAlertControllerStyle.alert)
-            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
-            self.present(alert, animated: true, completion: nil)
+//            let alert = UIAlertController(title: "Alert", message: passwordTextField.errorMessage(), preferredStyle: UIAlertControllerStyle.alert)
+//            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+//            self.present(alert, animated: true, completion: nil)
+            self.performSegue(withIdentifier: "segAutoLogin", sender: self)
+
         }
     }
     
+    @IBAction func didTapBtnSignUp(_ sender: AnyObject) {
+        self.performSegue(withIdentifier: "segSignUp", sender: self)
+    }
     
     
 

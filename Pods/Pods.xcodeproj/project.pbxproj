@@ -8,50 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		0365DBF3686694B84C634FF2528B20FF /* Pods-ChoiceSNS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF3DFC3BDCF54830BF5C1DAF3EA54F83 /* Pods-ChoiceSNS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0510932171A0BE4F72CDE34FA1154E93 /* PasswordTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 672A2EA778214238F69279465642574C /* PasswordTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		093E724BAAE245FB7F7304E8663F9668 /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A05F6B08D729436FB1F2FBE3DE838A /* UIButtonExtensions.swift */; };
-		0CB770CD249FAA5736ECD96141497AE2 /* SingleImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB30BFD9CCB81CA0F48EA667A3CCA43 /* SingleImageSaver.swift */; };
-		118DE5355C8C4BC5EBB1C2034E7CC058 /* VolumeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77492FFF1BDF20C375A99BAC9AC2DA7 /* VolumeControl.swift */; };
-		15FB92B783D49ED5DABF046637C7192E /* visibility_off.png in Resources */ = {isa = PBXBuildFile; fileRef = B7CD22DE1B02331462BD74CB2F70CFDC /* visibility_off.png */; };
-		184488E443B6D2A85DA45AD3D21245B1 /* CameraGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556CFD4128BADF33E784B4C054B59D68 /* CameraGlobals.swift */; };
-		1D1FE38C62B9D2AD8E29A04949DD1C6F /* SingleImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F2022C47B5F4E5CD175DDB0834B50B /* SingleImageFetcher.swift */; };
-		21B9C65EB3542F7DF279B8090F165EBD /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BDEB62DE8DFCBE61846DF658D6E8BC /* UIViewExtensions.swift */; };
-		243A0676D3A30863DEBB6038A5A29877 /* visibility_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0F2336D1B837201F24AAC9B838E461 /* visibility_off@2x.png */; };
-		297B53414EE250304AAE12704A0E525E /* BundleUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F256C0EA7B571BEA21A2B6F8516676E2 /* BundleUtil.swift */; };
-		29880E5ABF060C5BD17C0606DBE10D7B /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1EC7656D50CD7783E0879BCCA8A21 /* ImageFetcher.swift */; };
-		32ACAD182A9C90C563170CF45CC65A5C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21764EB90C3704724728DBDCBB7AC5B /* CameraViewController.swift */; };
-		3AB8980724808427937EC099A399DF0E /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FD8FF2470FD0245BD4224F8765D0B6 /* ImageCell.swift */; };
-		45E1DF3AA2D60E7402D56EE637898FF6 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB658EDACE3E0959BB92A404253CFF /* ConfirmViewController.swift */; };
-		4C115F1FF41B66803D010883277F87E2 /* CameraViewAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EEF85E2025F60DEE17C4069BDA92E34 /* CameraViewAssets.xcassets */; };
-		4DAABE9CB61AAB8B3660B4193C3BAFAC /* Ruleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAA35A9C60AA920B7FC6811F594963 /* Ruleable.swift */; };
-		522B8333B847C084022A9E842E609CAE /* visibility_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9384E1FE84AF15CA290C505C85E4F3 /* visibility_on@2x.png */; };
-		571340FD7CCFE8BAC3A2F08E0CD9CED5 /* PhotoLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35418A879650A0B145F863A36BD97F05 /* PhotoLibraryViewController.swift */; };
-		5FC1918E61DC71F6AE521106490DC8DB /* PasswordTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C4D107AC287A8D1A2A121ADF58A7D5 /* PasswordTextField-dummy.m */; };
+		0510932171A0BE4F72CDE34FA1154E93 /* PasswordTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = BC41590A4A4B7716A05AC19933A9AF7F /* PasswordTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		093E724BAAE245FB7F7304E8663F9668 /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13CD18D62D0C338879DE5C5DFCCFC2C /* UIButtonExtensions.swift */; };
+		0CB770CD249FAA5736ECD96141497AE2 /* SingleImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D49777FE8D2E367B34306F908635DD /* SingleImageSaver.swift */; };
+		118DE5355C8C4BC5EBB1C2034E7CC058 /* VolumeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900B9214D5137B2639E091CB7783D512 /* VolumeControl.swift */; };
+		15FB92B783D49ED5DABF046637C7192E /* visibility_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 380542368F7260BBC34DFD723F3CF6CA /* visibility_off.png */; };
+		184488E443B6D2A85DA45AD3D21245B1 /* CameraGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92670D26A02BAA449D68438F73F6644D /* CameraGlobals.swift */; };
+		1D1FE38C62B9D2AD8E29A04949DD1C6F /* SingleImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02050FC6735E31D6D1CEB30C8DDD2833 /* SingleImageFetcher.swift */; };
+		21B9C65EB3542F7DF279B8090F165EBD /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F321446BE628515ECC72EE909E7A8D11 /* UIViewExtensions.swift */; };
+		243A0676D3A30863DEBB6038A5A29877 /* visibility_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A9A1D5AE8F4FE1F335747E248064C4 /* visibility_off@2x.png */; };
+		297B53414EE250304AAE12704A0E525E /* BundleUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07135164C8ED07EE5DB6E2DC06CCF724 /* BundleUtil.swift */; };
+		29880E5ABF060C5BD17C0606DBE10D7B /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4296595F1F3B01D5180CF54BB9F2BCD /* ImageFetcher.swift */; };
+		32ACAD182A9C90C563170CF45CC65A5C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BF6B4A48F19DB4E0A23D38A88577FD /* CameraViewController.swift */; };
+		3AB8980724808427937EC099A399DF0E /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C91400DD3A45ED38C7AC022E0D6CA /* ImageCell.swift */; };
+		45E1DF3AA2D60E7402D56EE637898FF6 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2635031CE1694A0F9F14770EE408FD55 /* ConfirmViewController.swift */; };
+		4C115F1FF41B66803D010883277F87E2 /* CameraViewAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4319164F6A63B1AA7F9122F1F317A222 /* CameraViewAssets.xcassets */; };
+		4DAABE9CB61AAB8B3660B4193C3BAFAC /* Ruleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E77F86653E38E28477D5C68F165D2F /* Ruleable.swift */; };
+		522B8333B847C084022A9E842E609CAE /* visibility_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08309C3E6C3E81D6F880F5392A8AF8E3 /* visibility_on@2x.png */; };
+		571340FD7CCFE8BAC3A2F08E0CD9CED5 /* PhotoLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09506E42BFDA40E500E3A8935A081EB5 /* PhotoLibraryViewController.swift */; };
+		5FC1918E61DC71F6AE521106490DC8DB /* PasswordTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66648AAFB1AB60F3BBC6DA1F86026302 /* PasswordTextField-dummy.m */; };
 		65DCB6A625CEBC8EB8967A104059DE09 /* Pods-ChoiceSNS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B45D8B98C091EF20D7B0DF4F49FD9CEA /* Pods-ChoiceSNS-dummy.m */; };
-		705D53790CC8B18997358B20F268F7F3 /* CropOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C09CDD3A9A178136FF0105E7CB17651 /* CropOverlay.swift */; };
-		728A45B8B971047BDB308AE2141F3DC8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B966E3EE8BC7DB1C9B96D442ACD72 /* Utilities.swift */; };
-		79A19228C1166CE5B1D5E857B2F94173 /* ALCameraViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2875D5939F6BB2FFB4CB8144FA7893 /* ALCameraViewController-dummy.m */; };
-		7A3522A87A9791AE24BF9A505B0D8628 /* visibility_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5240ADAC91F89B79F975ED51FF5D4729 /* visibility_on.png */; };
-		869A05C6BE3D22234FE4C1EDA306DF37 /* PasswordRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C781D8D5C1D252515A55A9CEDF8B051 /* PasswordRule.swift */; };
-		8F4A966830ABFC9639F5250B2AE9DF7B /* CameraShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A3A2FD85404A758DED2CD6BEBAA90 /* CameraShot.swift */; };
-		93950A5EA850835DCF2835FEBC1DFD91 /* SecureTextToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B97F2B27032269C8B44FF2287969C96 /* SecureTextToggleButton.swift */; };
-		A940E8F9C140B8C66EFF4D1483297520 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E244653F65771E0F8AD65C33D0689FAE /* CameraView.swift */; };
+		705D53790CC8B18997358B20F268F7F3 /* CropOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E0E9CACEE793217BA23945F468E0FD /* CropOverlay.swift */; };
+		728A45B8B971047BDB308AE2141F3DC8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628407748FCAC76D37EC11EAAC622C29 /* Utilities.swift */; };
+		79A19228C1166CE5B1D5E857B2F94173 /* ALCameraViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD89B9378A6ABB5D09E7CFE420879F3 /* ALCameraViewController-dummy.m */; };
+		7A3522A87A9791AE24BF9A505B0D8628 /* visibility_on.png in Resources */ = {isa = PBXBuildFile; fileRef = C25E21638AB9587A5650CE7549FB24DD /* visibility_on.png */; };
+		869A05C6BE3D22234FE4C1EDA306DF37 /* PasswordRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBED7000432A67DB0CA8D7ACC197491 /* PasswordRule.swift */; };
+		8F4A966830ABFC9639F5250B2AE9DF7B /* CameraShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BCE09E775E10D91B9F3DD32BFBDEFC /* CameraShot.swift */; };
+		93950A5EA850835DCF2835FEBC1DFD91 /* SecureTextToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416491F7AC54512CC9E7C6C0BC5E10D7 /* SecureTextToggleButton.swift */; };
+		A940E8F9C140B8C66EFF4D1483297520 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49955DC522EE10ECEE12FF9D6430BD0B /* CameraView.swift */; };
 		ABBEC426082E8C4BF6A66A7329DE44AB /* PasswordTextField.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01C7730A790E7FAEE0DC23C021A72F95 /* PasswordTextField.bundle */; };
-		B3AB8B9A6BF3D7C6AD248D750C4AF3DA /* CameraView.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21A4C2A5CDF656F8870307B954E4FF1A /* CameraView.strings */; };
-		B792160E0DF8BABD00BA2D01D992572E /* PhotoLibraryAuthorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54290071898177968C2E005BBC6633A4 /* PhotoLibraryAuthorizer.swift */; };
-		B7D7D44A113D715BF441701DB83D1C73 /* RegexRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8CBE12ABE903CBBEFEA740D413E8E4 /* RegexRule.swift */; };
-		BD417ADF45CBB13BD4BB5E3904740DBF /* visibility_off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D9F75DD6DEE33DFF62B1DDCAC2AD57B /* visibility_off@3x.png */; };
-		D949A968AD3CDC949C94394BDFD02B65 /* ConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1D6E9E840737D7BF6AC9B58A2F3197E /* ConfirmViewController.xib */; };
+		B3AB8B9A6BF3D7C6AD248D750C4AF3DA /* CameraView.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F9B08F280F47B1B001485FD487A4CCB /* CameraView.strings */; };
+		B792160E0DF8BABD00BA2D01D992572E /* PhotoLibraryAuthorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBF79810F9EB850A040AD7F1C2B6587 /* PhotoLibraryAuthorizer.swift */; };
+		B7D7D44A113D715BF441701DB83D1C73 /* RegexRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB748F4C2E25DF0D11107E5DF0EFFC5 /* RegexRule.swift */; };
+		BD417ADF45CBB13BD4BB5E3904740DBF /* visibility_off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91680F7EEE3B84B9CE1DB9C15C5BF4BC /* visibility_off@3x.png */; };
+		D949A968AD3CDC949C94394BDFD02B65 /* ConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E5A3D916CA2BD1EA14BC9DA1258D7E9 /* ConfirmViewController.xib */; };
 		DD0B4781D705D130818495008E73DADE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		E2560A7275A61939751F09B8163EBA16 /* CameraViewControllerConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52705BBBCC37E36DEE48D05DBDC44550 /* CameraViewControllerConstraint.swift */; };
-		E576F7AB37C54B1E6F3B367BD525E2BA /* PasswordTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 322E292C0D706B71D5129EF94F33324D /* PasswordTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5F334E181A8EDCE0B0CE084957957A7 /* PermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A3C1DD363921AA2A4E42B43D906784 /* PermissionsView.swift */; };
+		E2560A7275A61939751F09B8163EBA16 /* CameraViewControllerConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAB432014B90526CF895926F15D9DFE /* CameraViewControllerConstraint.swift */; };
+		E576F7AB37C54B1E6F3B367BD525E2BA /* PasswordTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FED35DE80D71E8AD14E16E69B851207C /* PasswordTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5F334E181A8EDCE0B0CE084957957A7 /* PermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A287A9C37A845A8062CF54FB898C8 /* PermissionsView.swift */; };
 		E6735B200E439D74485A4C6C58236063 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		E7623640F6DF5E7780070499E0A058EE /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88FD43EA86D1C2B89CF48619C6BB2BE /* StringExtension.swift */; };
-		ED60C22A7353A560DCD5F84CDC98C4A4 /* visibility_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F527EAE0EE36CBE86BDE196D9358E4C0 /* visibility_on@3x.png */; };
+		E7623640F6DF5E7780070499E0A058EE /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81541D1C0A5A5BC0F5225820E94F3843 /* StringExtension.swift */; };
+		ED60C22A7353A560DCD5F84CDC98C4A4 /* visibility_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F37442FA86EFA38F38330C477FFBA4A2 /* visibility_on@3x.png */; };
 		F3224858C13E9A856221115004589F58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		F3ED4024EBF978156D113F80A7792AC7 /* ALCameraViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A97DA2C918331F05FD65BB4D6A6ABF /* ALCameraViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F556B211A573E7CB9431BD0F6FF9C335 /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51FB795987D406352F6F11E3E0C4910 /* PasswordTextField.swift */; };
+		F3ED4024EBF978156D113F80A7792AC7 /* ALCameraViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A743333045F4D46D0C9FB9D326EDE28 /* ALCameraViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F556B211A573E7CB9431BD0F6FF9C335 /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728DFE00925AC116807F1D24765B1730 /* PasswordTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,79 +80,80 @@
 
 /* Begin PBXFileReference section */
 		01C7730A790E7FAEE0DC23C021A72F95 /* PasswordTextField.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordTextField.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C09CDD3A9A178136FF0105E7CB17651 /* CropOverlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropOverlay.swift; path = ALCameraViewController/Views/CropOverlay.swift; sourceTree = "<group>"; };
-		0DDB658EDACE3E0959BB92A404253CFF /* ConfirmViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfirmViewController.swift; path = ALCameraViewController/ViewController/ConfirmViewController.swift; sourceTree = "<group>"; };
+		02050FC6735E31D6D1CEB30C8DDD2833 /* SingleImageFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleImageFetcher.swift; path = ALCameraViewController/Utilities/SingleImageFetcher.swift; sourceTree = "<group>"; };
+		05D1AEC6143FA3F553AB1DCE7B1D5BBF /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		07135164C8ED07EE5DB6E2DC06CCF724 /* BundleUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BundleUtil.swift; path = PasswordTextField/BundleUtil.swift; sourceTree = "<group>"; };
+		08309C3E6C3E81D6F880F5392A8AF8E3 /* visibility_on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "visibility_on@2x.png"; path = "PasswordTextField/Media/visibility_on@2x.png"; sourceTree = "<group>"; };
+		09506E42BFDA40E500E3A8935A081EB5 /* PhotoLibraryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoLibraryViewController.swift; path = ALCameraViewController/ViewController/PhotoLibraryViewController.swift; sourceTree = "<group>"; };
 		122447C5393709B03DBF3AAD63042FF6 /* Pods-ChoiceSNS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChoiceSNS.debug.xcconfig"; sourceTree = "<group>"; };
+		1638AEA406CAA563E286EB5EC5D2C8CB /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
 		19CA412F056FFA6C40D0F1B94F3187AE /* Pods-ChoiceSNS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChoiceSNS-resources.sh"; sourceTree = "<group>"; };
-		1D9F75DD6DEE33DFF62B1DDCAC2AD57B /* visibility_off@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "visibility_off@3x.png"; path = "PasswordTextField/Media/visibility_off@3x.png"; sourceTree = "<group>"; };
-		21A4C2A5CDF656F8870307B954E4FF1A /* CameraView.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = CameraView.strings; path = ALCameraViewController/CameraView.strings; sourceTree = "<group>"; };
-		229F2C5B5B24F9560D3CC128057FE083 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
 		23058F61A8BCF6F7D254556832D5502C /* Pods-ChoiceSNS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChoiceSNS-frameworks.sh"; sourceTree = "<group>"; };
-		23C4D107AC287A8D1A2A121ADF58A7D5 /* PasswordTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PasswordTextField-dummy.m"; sourceTree = "<group>"; };
-		28793ECD965081660F3841CBACCCD71E /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
-		29BDEB62DE8DFCBE61846DF658D6E8BC /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = ALCameraViewController/Utilities/UIViewExtensions.swift; sourceTree = "<group>"; };
-		2CF6544854F75166C62C27D5D0F4A4A9 /* ALCameraViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALCameraViewController.xcconfig; sourceTree = "<group>"; };
-		322E292C0D706B71D5129EF94F33324D /* PasswordTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PasswordTextField-umbrella.h"; sourceTree = "<group>"; };
-		35418A879650A0B145F863A36BD97F05 /* PhotoLibraryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoLibraryViewController.swift; path = ALCameraViewController/ViewController/PhotoLibraryViewController.swift; sourceTree = "<group>"; };
-		39837F8812E34C40371BF3FDE8C1506E /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
-		3C781D8D5C1D252515A55A9CEDF8B051 /* PasswordRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordRule.swift; path = PasswordTextField/PasswordRule.swift; sourceTree = "<group>"; };
-		3F8CBEA798476095AED563AFB658F41C /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
-		43FD8FF2470FD0245BD4224F8765D0B6 /* ImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCell.swift; path = ALCameraViewController/Views/ImageCell.swift; sourceTree = "<group>"; };
-		4E095289AC0380CD76071AD2ACB4FFF3 /* PasswordTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PasswordTextField.modulemap; sourceTree = "<group>"; };
-		4EEF85E2025F60DEE17C4069BDA92E34 /* CameraViewAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = CameraViewAssets.xcassets; path = ALCameraViewController/CameraViewAssets.xcassets; sourceTree = "<group>"; };
-		5240ADAC91F89B79F975ED51FF5D4729 /* visibility_on.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = visibility_on.png; path = PasswordTextField/Media/visibility_on.png; sourceTree = "<group>"; };
-		52705BBBCC37E36DEE48D05DBDC44550 /* CameraViewControllerConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewControllerConstraint.swift; path = ALCameraViewController/ViewController/CameraViewControllerConstraint.swift; sourceTree = "<group>"; };
-		54290071898177968C2E005BBC6633A4 /* PhotoLibraryAuthorizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoLibraryAuthorizer.swift; path = ALCameraViewController/Utilities/PhotoLibraryAuthorizer.swift; sourceTree = "<group>"; };
-		556CFD4128BADF33E784B4C054B59D68 /* CameraGlobals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraGlobals.swift; path = ALCameraViewController/Utilities/CameraGlobals.swift; sourceTree = "<group>"; };
+		25A9A1D5AE8F4FE1F335747E248064C4 /* visibility_off@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "visibility_off@2x.png"; path = "PasswordTextField/Media/visibility_off@2x.png"; sourceTree = "<group>"; };
+		2635031CE1694A0F9F14770EE408FD55 /* ConfirmViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfirmViewController.swift; path = ALCameraViewController/ViewController/ConfirmViewController.swift; sourceTree = "<group>"; };
+		2B9C1A27A19032FD14CF003A4B5BBD49 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
+		3312A91415243E7B0626C4C7942A7D31 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		380542368F7260BBC34DFD723F3CF6CA /* visibility_off.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = visibility_off.png; path = PasswordTextField/Media/visibility_off.png; sourceTree = "<group>"; };
+		40724305EACA478858E21541B8648056 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		416491F7AC54512CC9E7C6C0BC5E10D7 /* SecureTextToggleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureTextToggleButton.swift; path = PasswordTextField/SecureTextToggleButton.swift; sourceTree = "<group>"; };
+		4319164F6A63B1AA7F9122F1F317A222 /* CameraViewAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = CameraViewAssets.xcassets; path = ALCameraViewController/CameraViewAssets.xcassets; sourceTree = "<group>"; };
+		45D49777FE8D2E367B34306F908635DD /* SingleImageSaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleImageSaver.swift; path = ALCameraViewController/Utilities/SingleImageSaver.swift; sourceTree = "<group>"; };
+		49955DC522EE10ECEE12FF9D6430BD0B /* CameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraView.swift; path = ALCameraViewController/Views/CameraView.swift; sourceTree = "<group>"; };
+		4BAB432014B90526CF895926F15D9DFE /* CameraViewControllerConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewControllerConstraint.swift; path = ALCameraViewController/ViewController/CameraViewControllerConstraint.swift; sourceTree = "<group>"; };
+		4F7C91400DD3A45ED38C7AC022E0D6CA /* ImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCell.swift; path = ALCameraViewController/Views/ImageCell.swift; sourceTree = "<group>"; };
+		53969B316D1AEB1A30FF0BFFF613F1C1 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		5628878FFB273ADD3BD0F0A1A2897143 /* ResourceBundle-PasswordTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PasswordTextField-Info.plist"; sourceTree = "<group>"; };
 		5B56437206EBBADCBBAFB4B5D8AB6817 /* ALCameraViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ALCameraViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD20B2BDF58A7CE0221091F57B1DD1A /* Pods-ChoiceSNS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChoiceSNS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6195D550F413375A792CD1AEAE3DD9C1 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
-		66A97DA2C918331F05FD65BB4D6A6ABF /* ALCameraViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALCameraViewController-umbrella.h"; sourceTree = "<group>"; };
-		672A2EA778214238F69279465642574C /* PasswordTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PasswordTextField.h; path = PasswordTextField/PasswordTextField.h; sourceTree = "<group>"; };
+		628407748FCAC76D37EC11EAAC622C29 /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ALCameraViewController/Utilities/Utilities.swift; sourceTree = "<group>"; };
+		66648AAFB1AB60F3BBC6DA1F86026302 /* PasswordTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PasswordTextField-dummy.m"; sourceTree = "<group>"; };
 		6889013998587FDA40D598FAE7B81B48 /* PasswordTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PasswordTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6940CDE45D541631655743F1C6A8F20B /* Pods-ChoiceSNS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ChoiceSNS.modulemap"; sourceTree = "<group>"; };
-		79F2022C47B5F4E5CD175DDB0834B50B /* SingleImageFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleImageFetcher.swift; path = ALCameraViewController/Utilities/SingleImageFetcher.swift; sourceTree = "<group>"; };
-		7B9384E1FE84AF15CA290C505C85E4F3 /* visibility_on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "visibility_on@2x.png"; path = "PasswordTextField/Media/visibility_on@2x.png"; sourceTree = "<group>"; };
-		8B1B995C78BD39D1F917983C7FFE2FE6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B97F2B27032269C8B44FF2287969C96 /* SecureTextToggleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureTextToggleButton.swift; path = PasswordTextField/SecureTextToggleButton.swift; sourceTree = "<group>"; };
-		8CB30BFD9CCB81CA0F48EA667A3CCA43 /* SingleImageSaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleImageSaver.swift; path = ALCameraViewController/Utilities/SingleImageSaver.swift; sourceTree = "<group>"; };
-		8DD7FB1D90F9305B11C3FC66BA998A19 /* ALCameraViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALCameraViewController-prefix.pch"; sourceTree = "<group>"; };
-		91A05F6B08D729436FB1F2FBE3DE838A /* UIButtonExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonExtensions.swift; path = ALCameraViewController/Utilities/UIButtonExtensions.swift; sourceTree = "<group>"; };
-		9292E889099015DA66D73461D9CCFD17 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		6A743333045F4D46D0C9FB9D326EDE28 /* ALCameraViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALCameraViewController-umbrella.h"; sourceTree = "<group>"; };
+		6E5A3D916CA2BD1EA14BC9DA1258D7E9 /* ConfirmViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ConfirmViewController.xib; path = ALCameraViewController/ViewController/ConfirmViewController.xib; sourceTree = "<group>"; };
+		728DFE00925AC116807F1D24765B1730 /* PasswordTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordTextField.swift; path = PasswordTextField/PasswordTextField.swift; sourceTree = "<group>"; };
+		7303BE5C630DF760E5E6D23F5AF48910 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		730E1C0CE64B66D61E0768E345A8033F /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		78E77F86653E38E28477D5C68F165D2F /* Ruleable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ruleable.swift; path = PasswordTextField/Ruleable.swift; sourceTree = "<group>"; };
+		7C81D3720D60EAB6154641E3346AF38E /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		80E9B4C4C431A77DA64F1A508CE85AD9 /* ALCameraViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALCameraViewController.xcconfig; sourceTree = "<group>"; };
+		81541D1C0A5A5BC0F5225820E94F3843 /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = PasswordTextField/StringExtension.swift; sourceTree = "<group>"; };
+		83F2A089069CFE725AD803E22939B4C7 /* PasswordTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PasswordTextField-prefix.pch"; sourceTree = "<group>"; };
+		8A1A287A9C37A845A8062CF54FB898C8 /* PermissionsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PermissionsView.swift; path = ALCameraViewController/Views/PermissionsView.swift; sourceTree = "<group>"; };
+		8F9B08F280F47B1B001485FD487A4CCB /* CameraView.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = CameraView.strings; path = ALCameraViewController/CameraView.strings; sourceTree = "<group>"; };
+		8FB748F4C2E25DF0D11107E5DF0EFFC5 /* RegexRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegexRule.swift; path = PasswordTextField/RegexRule.swift; sourceTree = "<group>"; };
+		900B9214D5137B2639E091CB7783D512 /* VolumeControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VolumeControl.swift; path = ALCameraViewController/Utilities/VolumeControl.swift; sourceTree = "<group>"; };
+		91680F7EEE3B84B9CE1DB9C15C5BF4BC /* visibility_off@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "visibility_off@3x.png"; path = "PasswordTextField/Media/visibility_off@3x.png"; sourceTree = "<group>"; };
+		92670D26A02BAA449D68438F73F6644D /* CameraGlobals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraGlobals.swift; path = ALCameraViewController/Utilities/CameraGlobals.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		947105756D36FCA9A1C7C614DB5F45D0 /* PasswordTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PasswordTextField.modulemap; sourceTree = "<group>"; };
 		94925ACBC4A332E7DB95C8521FCC4715 /* Pods-ChoiceSNS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChoiceSNS-acknowledgements.plist"; sourceTree = "<group>"; };
-		A1D6E9E840737D7BF6AC9B58A2F3197E /* ConfirmViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ConfirmViewController.xib; path = ALCameraViewController/ViewController/ConfirmViewController.xib; sourceTree = "<group>"; };
-		A21764EB90C3704724728DBDCBB7AC5B /* CameraViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = ALCameraViewController/ViewController/CameraViewController.swift; sourceTree = "<group>"; };
-		A300841B7E06E588C30E4AA2AB96BD23 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		B0F1EC7656D50CD7783E0879BCCA8A21 /* ImageFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFetcher.swift; path = ALCameraViewController/Utilities/ImageFetcher.swift; sourceTree = "<group>"; };
+		98BCE09E775E10D91B9F3DD32BFBDEFC /* CameraShot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraShot.swift; path = ALCameraViewController/Utilities/CameraShot.swift; sourceTree = "<group>"; };
+		99BF6B4A48F19DB4E0A23D38A88577FD /* CameraViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = ALCameraViewController/ViewController/CameraViewController.swift; sourceTree = "<group>"; };
+		A012CAB10450B699D98F6BF0C1724499 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		A4296595F1F3B01D5180CF54BB9F2BCD /* ImageFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFetcher.swift; path = ALCameraViewController/Utilities/ImageFetcher.swift; sourceTree = "<group>"; };
+		A7E0E9CACEE793217BA23945F468E0FD /* CropOverlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropOverlay.swift; path = ALCameraViewController/Views/CropOverlay.swift; sourceTree = "<group>"; };
+		AF22CEF9FDAD68BE0E461F2DD6B1877C /* PasswordTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PasswordTextField.xcconfig; sourceTree = "<group>"; };
+		B13CD18D62D0C338879DE5C5DFCCFC2C /* UIButtonExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonExtensions.swift; path = ALCameraViewController/Utilities/UIButtonExtensions.swift; sourceTree = "<group>"; };
 		B45D8B98C091EF20D7B0DF4F49FD9CEA /* Pods-ChoiceSNS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChoiceSNS-dummy.m"; sourceTree = "<group>"; };
 		B5C93059F459CDF9934E2625354444C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B77492FFF1BDF20C375A99BAC9AC2DA7 /* VolumeControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VolumeControl.swift; path = ALCameraViewController/Utilities/VolumeControl.swift; sourceTree = "<group>"; };
-		B7CD22DE1B02331462BD74CB2F70CFDC /* visibility_off.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = visibility_off.png; path = PasswordTextField/Media/visibility_off.png; sourceTree = "<group>"; };
-		B9A3C1DD363921AA2A4E42B43D906784 /* PermissionsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PermissionsView.swift; path = ALCameraViewController/Views/PermissionsView.swift; sourceTree = "<group>"; };
-		BE2875D5939F6BB2FFB4CB8144FA7893 /* ALCameraViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALCameraViewController-dummy.m"; sourceTree = "<group>"; };
-		C1AAA35A9C60AA920B7FC6811F594963 /* Ruleable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ruleable.swift; path = PasswordTextField/Ruleable.swift; sourceTree = "<group>"; };
-		C2FBA9DDA3C6CB7F537C850C212ABCE1 /* ResourceBundle-PasswordTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PasswordTextField-Info.plist"; sourceTree = "<group>"; };
-		C3CF273CAF37F918BA0597333EAE9758 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
-		C51FB795987D406352F6F11E3E0C4910 /* PasswordTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordTextField.swift; path = PasswordTextField/PasswordTextField.swift; sourceTree = "<group>"; };
-		CB074EEBABB9C30E85A4AD39D0A58B76 /* ALCameraViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ALCameraViewController.modulemap; sourceTree = "<group>"; };
+		B7D27341598D037CC5EB80F242969113 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		BC41590A4A4B7716A05AC19933A9AF7F /* PasswordTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PasswordTextField.h; path = PasswordTextField/PasswordTextField.h; sourceTree = "<group>"; };
+		BEBF79810F9EB850A040AD7F1C2B6587 /* PhotoLibraryAuthorizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoLibraryAuthorizer.swift; path = ALCameraViewController/Utilities/PhotoLibraryAuthorizer.swift; sourceTree = "<group>"; };
+		BF1DF7F3C4FA822A0A78B53E1F3F2804 /* ALCameraViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ALCameraViewController.modulemap; sourceTree = "<group>"; };
+		BFBED7000432A67DB0CA8D7ACC197491 /* PasswordRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordRule.swift; path = PasswordTextField/PasswordRule.swift; sourceTree = "<group>"; };
+		C25E21638AB9587A5650CE7549FB24DD /* visibility_on.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = visibility_on.png; path = PasswordTextField/Media/visibility_on.png; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D1965DD645CB50B8B1818F14FC448007 /* PasswordTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PasswordTextField-prefix.pch"; sourceTree = "<group>"; };
-		D1C159B4D238C3228FADF4D1CDCEBE86 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
-		DC8CBE12ABE903CBBEFEA740D413E8E4 /* RegexRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegexRule.swift; path = PasswordTextField/RegexRule.swift; sourceTree = "<group>"; };
-		DE8B966E3EE8BC7DB1C9B96D442ACD72 /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ALCameraViewController/Utilities/Utilities.swift; sourceTree = "<group>"; };
-		E244653F65771E0F8AD65C33D0689FAE /* CameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraView.swift; path = ALCameraViewController/Views/CameraView.swift; sourceTree = "<group>"; };
-		E36BD4AD8B42F8C704DD8872E6E29B0D /* PasswordTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PasswordTextField.xcconfig; sourceTree = "<group>"; };
-		E3C1C80883A5CCD43DF5B762D62FBA0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E258037D8B246B7FE410775025AF5B6F /* ALCameraViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALCameraViewController-prefix.pch"; sourceTree = "<group>"; };
+		E79292CA780296218252BC9985C92C76 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
 		E86D6E2BBE10CE79877B6ADD42844BE9 /* Pods-ChoiceSNS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChoiceSNS.release.xcconfig"; sourceTree = "<group>"; };
-		E88FD43EA86D1C2B89CF48619C6BB2BE /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = PasswordTextField/StringExtension.swift; sourceTree = "<group>"; };
-		EC0F2336D1B837201F24AAC9B838E461 /* visibility_off@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "visibility_off@2x.png"; path = "PasswordTextField/Media/visibility_off@2x.png"; sourceTree = "<group>"; };
 		EF3DFC3BDCF54830BF5C1DAF3EA54F83 /* Pods-ChoiceSNS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChoiceSNS-umbrella.h"; sourceTree = "<group>"; };
-		F256C0EA7B571BEA21A2B6F8516676E2 /* BundleUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BundleUtil.swift; path = PasswordTextField/BundleUtil.swift; sourceTree = "<group>"; };
-		F3B9D59AE345B9ACE46C303FC2D93B69 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		F321446BE628515ECC72EE909E7A8D11 /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = ALCameraViewController/Utilities/UIViewExtensions.swift; sourceTree = "<group>"; };
+		F37442FA86EFA38F38330C477FFBA4A2 /* visibility_on@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "visibility_on@3x.png"; path = "PasswordTextField/Media/visibility_on@3x.png"; sourceTree = "<group>"; };
 		F3F6B21F0B7D1ADF0AF8930B8BA89912 /* Pods_ChoiceSNS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChoiceSNS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F527EAE0EE36CBE86BDE196D9358E4C0 /* visibility_on@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "visibility_on@3x.png"; path = "PasswordTextField/Media/visibility_on@3x.png"; sourceTree = "<group>"; };
-		FB6A3A2FD85404A758DED2CD6BEBAA90 /* CameraShot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraShot.swift; path = ALCameraViewController/Utilities/CameraShot.swift; sourceTree = "<group>"; };
+		FD0E9977DBAE6B04C291A7B9ABCAE69E /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		FED35DE80D71E8AD14E16E69B851207C /* PasswordTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PasswordTextField-umbrella.h"; sourceTree = "<group>"; };
+		FFD89B9378A6ABB5D09E7CFE420879F3 /* ALCameraViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALCameraViewController-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,73 +191,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04B1639E5EC2745928D458B9E5CFDE60 /* Frameworks */ = {
+		089C969137CC8B6ACED0FE67742B8998 /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
-				A300841B7E06E588C30E4AA2AB96BD23 /* FirebaseInstanceID.framework */,
+				1638AEA406CAA563E286EB5EC5D2C8CB /* Firebase.h */,
 			);
-			name = Frameworks;
+			name = Analytics;
 			sourceTree = "<group>";
 		};
-		0659561EBEF7D60A00331E3407A562B0 /* GoogleSymbolUtilities */ = {
+		20DC8C10C15574317916862DFC8DF149 /* FirebaseAuth */ = {
 			isa = PBXGroup;
 			children = (
-				4613A852119CDD96981FC3CD907C0BEB /* Frameworks */,
+				357DD9D9D6CD5753DB63218437E0A935 /* Frameworks */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		25949DDB37E356C2C9E984235EFCC9AA /* ALCameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				92670D26A02BAA449D68438F73F6644D /* CameraGlobals.swift */,
+				98BCE09E775E10D91B9F3DD32BFBDEFC /* CameraShot.swift */,
+				49955DC522EE10ECEE12FF9D6430BD0B /* CameraView.swift */,
+				99BF6B4A48F19DB4E0A23D38A88577FD /* CameraViewController.swift */,
+				4BAB432014B90526CF895926F15D9DFE /* CameraViewControllerConstraint.swift */,
+				2635031CE1694A0F9F14770EE408FD55 /* ConfirmViewController.swift */,
+				A7E0E9CACEE793217BA23945F468E0FD /* CropOverlay.swift */,
+				4F7C91400DD3A45ED38C7AC022E0D6CA /* ImageCell.swift */,
+				A4296595F1F3B01D5180CF54BB9F2BCD /* ImageFetcher.swift */,
+				8A1A287A9C37A845A8062CF54FB898C8 /* PermissionsView.swift */,
+				BEBF79810F9EB850A040AD7F1C2B6587 /* PhotoLibraryAuthorizer.swift */,
+				09506E42BFDA40E500E3A8935A081EB5 /* PhotoLibraryViewController.swift */,
+				02050FC6735E31D6D1CEB30C8DDD2833 /* SingleImageFetcher.swift */,
+				45D49777FE8D2E367B34306F908635DD /* SingleImageSaver.swift */,
+				B13CD18D62D0C338879DE5C5DFCCFC2C /* UIButtonExtensions.swift */,
+				F321446BE628515ECC72EE909E7A8D11 /* UIViewExtensions.swift */,
+				628407748FCAC76D37EC11EAAC622C29 /* Utilities.swift */,
+				900B9214D5137B2639E091CB7783D512 /* VolumeControl.swift */,
+				358B5D70D8A145977EB9C59824C0A62B /* Resources */,
+				25C8458394E2074901EF7B09E6C5A8A0 /* Support Files */,
+			);
+			path = ALCameraViewController;
+			sourceTree = "<group>";
+		};
+		25C8458394E2074901EF7B09E6C5A8A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF1DF7F3C4FA822A0A78B53E1F3F2804 /* ALCameraViewController.modulemap */,
+				80E9B4C4C431A77DA64F1A508CE85AD9 /* ALCameraViewController.xcconfig */,
+				FFD89B9378A6ABB5D09E7CFE420879F3 /* ALCameraViewController-dummy.m */,
+				E258037D8B246B7FE410775025AF5B6F /* ALCameraViewController-prefix.pch */,
+				6A743333045F4D46D0C9FB9D326EDE28 /* ALCameraViewController-umbrella.h */,
+				40724305EACA478858E21541B8648056 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ALCameraViewController";
+			sourceTree = "<group>";
+		};
+		2611D812948F42A29156EAFDC43B3AC3 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				3226BB07A66F77520453BD4D23BBC1E4 /* Frameworks */,
 			);
 			path = GoogleSymbolUtilities;
 			sourceTree = "<group>";
 		};
-		0A1826799AF1B149F96182FC569BA8CF /* Frameworks */ = {
+		3226BB07A66F77520453BD4D23BBC1E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F3B9D59AE345B9ACE46C303FC2D93B69 /* FirebaseDatabase.framework */,
+				B7D27341598D037CC5EB80F242969113 /* GoogleSymbolUtilities.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		12C8B37B339108975F661FAD88772328 /* FirebaseAnalytics */ = {
+		357DD9D9D6CD5753DB63218437E0A935 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5BACB8A1C43F7497BCA5E14FDECAC1E4 /* Frameworks */,
+				53969B316D1AEB1A30FF0BFFF613F1C1 /* FirebaseAuth.framework */,
 			);
-			path = FirebaseAnalytics;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1501E0DDAB6A8443F31DC592196504AF /* GoogleNetworkingUtilities */ = {
+		358B5D70D8A145977EB9C59824C0A62B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				280BEB8E2CAE09F19B6DA419EF2A5CC5 /* Frameworks */,
-			);
-			path = GoogleNetworkingUtilities;
-			sourceTree = "<group>";
-		};
-		239F25A7332ED7271237A5530E70C559 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B7CD22DE1B02331462BD74CB2F70CFDC /* visibility_off.png */,
-				EC0F2336D1B837201F24AAC9B838E461 /* visibility_off@2x.png */,
-				1D9F75DD6DEE33DFF62B1DDCAC2AD57B /* visibility_off@3x.png */,
-				5240ADAC91F89B79F975ED51FF5D4729 /* visibility_on.png */,
-				7B9384E1FE84AF15CA290C505C85E4F3 /* visibility_on@2x.png */,
-				F527EAE0EE36CBE86BDE196D9358E4C0 /* visibility_on@3x.png */,
+				8F9B08F280F47B1B001485FD487A4CCB /* CameraView.strings */,
+				4319164F6A63B1AA7F9122F1F317A222 /* CameraViewAssets.xcassets */,
+				6E5A3D916CA2BD1EA14BC9DA1258D7E9 /* ConfirmViewController.xib */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		280BEB8E2CAE09F19B6DA419EF2A5CC5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6195D550F413375A792CD1AEAE3DD9C1 /* GoogleNetworkingUtilities.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2C5255CE952E8FDF35BC9B97B37269B3 /* GoogleUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				F6A9AE6316535DEB43107C85F94B004E /* Frameworks */,
-			);
-			path = GoogleUtilities;
 			sourceTree = "<group>";
 		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
@@ -265,21 +288,6 @@
 				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		42B2E549CF698919A054199131EB2096 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8B1B995C78BD39D1F917983C7FFE2FE6 /* Info.plist */,
-				4E095289AC0380CD76071AD2ACB4FFF3 /* PasswordTextField.modulemap */,
-				E36BD4AD8B42F8C704DD8872E6E29B0D /* PasswordTextField.xcconfig */,
-				23C4D107AC287A8D1A2A121ADF58A7D5 /* PasswordTextField-dummy.m */,
-				D1965DD645CB50B8B1818F14FC448007 /* PasswordTextField-prefix.pch */,
-				322E292C0D706B71D5129EF94F33324D /* PasswordTextField-umbrella.h */,
-				C2FBA9DDA3C6CB7F537C850C212ABCE1 /* ResourceBundle-PasswordTextField-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PasswordTextField";
 			sourceTree = "<group>";
 		};
 		43558F0FF540866BC5C255E5B091FADD /* Products */ = {
@@ -293,90 +301,58 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		457F2B2ED74002318DBFF97926451A49 /* Firebase */ = {
+		520155AB77BC60C555E6763CED333597 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C6ED74BAE689404C8A7E55453E8D819A /* Analytics */,
-			);
-			path = Firebase;
-			sourceTree = "<group>";
-		};
-		4613A852119CDD96981FC3CD907C0BEB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3F8CBEA798476095AED563AFB658F41C /* GoogleSymbolUtilities.framework */,
+				7C81D3720D60EAB6154641E3346AF38E /* FirebaseInstanceID.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4A312DF4435C88B7A0A0D76CBF83DBEB /* Resources */ = {
+		59F2C87B3521276D008F1C164599FB62 /* PasswordTextField */ = {
 			isa = PBXGroup;
 			children = (
-				21A4C2A5CDF656F8870307B954E4FF1A /* CameraView.strings */,
-				4EEF85E2025F60DEE17C4069BDA92E34 /* CameraViewAssets.xcassets */,
-				A1D6E9E840737D7BF6AC9B58A2F3197E /* ConfirmViewController.xib */,
+				07135164C8ED07EE5DB6E2DC06CCF724 /* BundleUtil.swift */,
+				BFBED7000432A67DB0CA8D7ACC197491 /* PasswordRule.swift */,
+				BC41590A4A4B7716A05AC19933A9AF7F /* PasswordTextField.h */,
+				728DFE00925AC116807F1D24765B1730 /* PasswordTextField.swift */,
+				8FB748F4C2E25DF0D11107E5DF0EFFC5 /* RegexRule.swift */,
+				78E77F86653E38E28477D5C68F165D2F /* Ruleable.swift */,
+				416491F7AC54512CC9E7C6C0BC5E10D7 /* SecureTextToggleButton.swift */,
+				81541D1C0A5A5BC0F5225820E94F3843 /* StringExtension.swift */,
+				64B1E63A1000750EBE21167A0AF7C6B6 /* Resources */,
+				C64C66D46FF99EF86208C216861DA827 /* Support Files */,
+			);
+			path = PasswordTextField;
+			sourceTree = "<group>";
+		};
+		5D3ABE60ED907DE16B20027664AC75D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B9C1A27A19032FD14CF003A4B5BBD49 /* FirebaseStorage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64B1E63A1000750EBE21167A0AF7C6B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				380542368F7260BBC34DFD723F3CF6CA /* visibility_off.png */,
+				25A9A1D5AE8F4FE1F335747E248064C4 /* visibility_off@2x.png */,
+				91680F7EEE3B84B9CE1DB9C15C5BF4BC /* visibility_off@3x.png */,
+				C25E21638AB9587A5650CE7549FB24DD /* visibility_on.png */,
+				08309C3E6C3E81D6F880F5392A8AF8E3 /* visibility_on@2x.png */,
+				F37442FA86EFA38F38330C477FFBA4A2 /* visibility_on@3x.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		5105C7AC84C2F62CC72C6349011BCBBF /* FirebaseDatabase */ = {
+		791278BDB6DE60EA851134852337EF80 /* GoogleInterchangeUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				0A1826799AF1B149F96182FC569BA8CF /* Frameworks */,
+				BD8CBF4BEED96803173F1B0FA1A632FD /* Frameworks */,
 			);
-			path = FirebaseDatabase;
-			sourceTree = "<group>";
-		};
-		52B1E74E725CE18D147C659E3107E15D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9292E889099015DA66D73461D9CCFD17 /* FirebaseAuth.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		530AD786068525492611683EEF5F67B7 /* FirebaseInstanceID */ = {
-			isa = PBXGroup;
-			children = (
-				39837F8812E34C40371BF3FDE8C1506E /* FIRInstanceID.h */,
-				04B1639E5EC2745928D458B9E5CFDE60 /* Frameworks */,
-			);
-			path = FirebaseInstanceID;
-			sourceTree = "<group>";
-		};
-		5BACB8A1C43F7497BCA5E14FDECAC1E4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				229F2C5B5B24F9560D3CC128057FE083 /* FirebaseAnalytics.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		68EF9662DE80452A3066EDAF3FA3560D /* ALCameraViewController */ = {
-			isa = PBXGroup;
-			children = (
-				556CFD4128BADF33E784B4C054B59D68 /* CameraGlobals.swift */,
-				FB6A3A2FD85404A758DED2CD6BEBAA90 /* CameraShot.swift */,
-				E244653F65771E0F8AD65C33D0689FAE /* CameraView.swift */,
-				A21764EB90C3704724728DBDCBB7AC5B /* CameraViewController.swift */,
-				52705BBBCC37E36DEE48D05DBDC44550 /* CameraViewControllerConstraint.swift */,
-				0DDB658EDACE3E0959BB92A404253CFF /* ConfirmViewController.swift */,
-				0C09CDD3A9A178136FF0105E7CB17651 /* CropOverlay.swift */,
-				43FD8FF2470FD0245BD4224F8765D0B6 /* ImageCell.swift */,
-				B0F1EC7656D50CD7783E0879BCCA8A21 /* ImageFetcher.swift */,
-				B9A3C1DD363921AA2A4E42B43D906784 /* PermissionsView.swift */,
-				54290071898177968C2E005BBC6633A4 /* PhotoLibraryAuthorizer.swift */,
-				35418A879650A0B145F863A36BD97F05 /* PhotoLibraryViewController.swift */,
-				79F2022C47B5F4E5CD175DDB0834B50B /* SingleImageFetcher.swift */,
-				8CB30BFD9CCB81CA0F48EA667A3CCA43 /* SingleImageSaver.swift */,
-				91A05F6B08D729436FB1F2FBE3DE838A /* UIButtonExtensions.swift */,
-				29BDEB62DE8DFCBE61846DF658D6E8BC /* UIViewExtensions.swift */,
-				DE8B966E3EE8BC7DB1C9B96D442ACD72 /* Utilities.swift */,
-				B77492FFF1BDF20C375A99BAC9AC2DA7 /* VolumeControl.swift */,
-				4A312DF4435C88B7A0A0D76CBF83DBEB /* Resources */,
-				B76778AB71ACA678975A8F0DD9C16216 /* Support Files */,
-			);
-			path = ALCameraViewController;
+			path = GoogleInterchangeUtilities;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -384,10 +360,27 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				AB61FD4CD3986D21806A12838B580D6B /* Pods */,
+				D81FB7B7FC37E085D3AC8CFA9F08769D /* Pods */,
 				43558F0FF540866BC5C255E5B091FADD /* Products */,
 				8CF698F95380A177714EECAFBA32866A /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7FF24D6D01020752EC41B00D83161553 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				089C969137CC8B6ACED0FE67742B8998 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		8A72B95C8EF7BB04571BD5ADFFA201D1 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				FD0E9977DBAE6B04C291A7B9ABCAE69E /* FIRInstanceID.h */,
+				520155AB77BC60C555E6763CED333597 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
 			sourceTree = "<group>";
 		};
 		8CF698F95380A177714EECAFBA32866A /* Targets Support Files */ = {
@@ -398,83 +391,58 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8ECA7D38C9C9754F6A7E0C06CD865F05 /* PasswordTextField */ = {
+		92A5A8E8570D03A4645FD82CE2FAA56E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F256C0EA7B571BEA21A2B6F8516676E2 /* BundleUtil.swift */,
-				3C781D8D5C1D252515A55A9CEDF8B051 /* PasswordRule.swift */,
-				672A2EA778214238F69279465642574C /* PasswordTextField.h */,
-				C51FB795987D406352F6F11E3E0C4910 /* PasswordTextField.swift */,
-				DC8CBE12ABE903CBBEFEA740D413E8E4 /* RegexRule.swift */,
-				C1AAA35A9C60AA920B7FC6811F594963 /* Ruleable.swift */,
-				8B97F2B27032269C8B44FF2287969C96 /* SecureTextToggleButton.swift */,
-				E88FD43EA86D1C2B89CF48619C6BB2BE /* StringExtension.swift */,
-				239F25A7332ED7271237A5530E70C559 /* Resources */,
-				42B2E549CF698919A054199131EB2096 /* Support Files */,
-			);
-			path = PasswordTextField;
-			sourceTree = "<group>";
-		};
-		9A4B44333E924B4B1FEFFB16D24E7102 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C3CF273CAF37F918BA0597333EAE9758 /* GoogleInterchangeUtilities.framework */,
+				A012CAB10450B699D98F6BF0C1724499 /* GoogleUtilities.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AB61FD4CD3986D21806A12838B580D6B /* Pods */ = {
+		AA838E3E3893E2E677099040258F7985 /* FirebaseDatabase */ = {
 			isa = PBXGroup;
 			children = (
-				68EF9662DE80452A3066EDAF3FA3560D /* ALCameraViewController */,
-				457F2B2ED74002318DBFF97926451A49 /* Firebase */,
-				12C8B37B339108975F661FAD88772328 /* FirebaseAnalytics */,
-				B7ED38CEAD4B5F14B9A9F89E1BDF94F2 /* FirebaseAuth */,
-				5105C7AC84C2F62CC72C6349011BCBBF /* FirebaseDatabase */,
-				530AD786068525492611683EEF5F67B7 /* FirebaseInstanceID */,
-				B8D7E906CD63A26A088F1D816AC192EC /* GoogleInterchangeUtilities */,
-				1501E0DDAB6A8443F31DC592196504AF /* GoogleNetworkingUtilities */,
-				0659561EBEF7D60A00331E3407A562B0 /* GoogleSymbolUtilities */,
-				2C5255CE952E8FDF35BC9B97B37269B3 /* GoogleUtilities */,
-				8ECA7D38C9C9754F6A7E0C06CD865F05 /* PasswordTextField */,
+				B5641DE7D26BC49DA7109653CA4167CB /* Frameworks */,
 			);
-			name = Pods;
+			path = FirebaseDatabase;
 			sourceTree = "<group>";
 		};
-		B76778AB71ACA678975A8F0DD9C16216 /* Support Files */ = {
+		B3A53B9F3743B2DC5421924FD207CD8F /* GoogleNetworkingUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				CB074EEBABB9C30E85A4AD39D0A58B76 /* ALCameraViewController.modulemap */,
-				2CF6544854F75166C62C27D5D0F4A4A9 /* ALCameraViewController.xcconfig */,
-				BE2875D5939F6BB2FFB4CB8144FA7893 /* ALCameraViewController-dummy.m */,
-				8DD7FB1D90F9305B11C3FC66BA998A19 /* ALCameraViewController-prefix.pch */,
-				66A97DA2C918331F05FD65BB4D6A6ABF /* ALCameraViewController-umbrella.h */,
-				E3C1C80883A5CCD43DF5B762D62FBA0B /* Info.plist */,
+				F3A2C6D90DC6D43CDDBE350D8E9AB3E4 /* Frameworks */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ALCameraViewController";
+			path = GoogleNetworkingUtilities;
 			sourceTree = "<group>";
 		};
-		B7ED38CEAD4B5F14B9A9F89E1BDF94F2 /* FirebaseAuth */ = {
+		B5641DE7D26BC49DA7109653CA4167CB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				52B1E74E725CE18D147C659E3107E15D /* Frameworks */,
+				3312A91415243E7B0626C4C7942A7D31 /* FirebaseDatabase.framework */,
 			);
-			path = FirebaseAuth;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B8D7E906CD63A26A088F1D816AC192EC /* GoogleInterchangeUtilities */ = {
+		B6F25FCBABF3F744275DDB29E6E816DE /* FirebaseStorage */ = {
 			isa = PBXGroup;
 			children = (
-				9A4B44333E924B4B1FEFFB16D24E7102 /* Frameworks */,
+				5D3ABE60ED907DE16B20027664AC75D4 /* Frameworks */,
 			);
-			path = GoogleInterchangeUtilities;
+			path = FirebaseStorage;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD8CBF4BEED96803173F1B0FA1A632FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				730E1C0CE64B66D61E0768E345A8033F /* GoogleInterchangeUtilities.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -497,18 +465,68 @@
 			path = "Target Support Files/Pods-ChoiceSNS";
 			sourceTree = "<group>";
 		};
-		C6ED74BAE689404C8A7E55453E8D819A /* Analytics */ = {
+		C64C66D46FF99EF86208C216861DA827 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				28793ECD965081660F3841CBACCCD71E /* Firebase.h */,
+				7303BE5C630DF760E5E6D23F5AF48910 /* Info.plist */,
+				947105756D36FCA9A1C7C614DB5F45D0 /* PasswordTextField.modulemap */,
+				AF22CEF9FDAD68BE0E461F2DD6B1877C /* PasswordTextField.xcconfig */,
+				66648AAFB1AB60F3BBC6DA1F86026302 /* PasswordTextField-dummy.m */,
+				83F2A089069CFE725AD803E22939B4C7 /* PasswordTextField-prefix.pch */,
+				FED35DE80D71E8AD14E16E69B851207C /* PasswordTextField-umbrella.h */,
+				5628878FFB273ADD3BD0F0A1A2897143 /* ResourceBundle-PasswordTextField-Info.plist */,
 			);
-			name = Analytics;
+			name = "Support Files";
+			path = "../Target Support Files/PasswordTextField";
 			sourceTree = "<group>";
 		};
-		F6A9AE6316535DEB43107C85F94B004E /* Frameworks */ = {
+		D81FB7B7FC37E085D3AC8CFA9F08769D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D1C159B4D238C3228FADF4D1CDCEBE86 /* GoogleUtilities.framework */,
+				25949DDB37E356C2C9E984235EFCC9AA /* ALCameraViewController */,
+				7FF24D6D01020752EC41B00D83161553 /* Firebase */,
+				EF1B0917EB89F97865E2A0A8749E87AC /* FirebaseAnalytics */,
+				20DC8C10C15574317916862DFC8DF149 /* FirebaseAuth */,
+				AA838E3E3893E2E677099040258F7985 /* FirebaseDatabase */,
+				8A72B95C8EF7BB04571BD5ADFFA201D1 /* FirebaseInstanceID */,
+				B6F25FCBABF3F744275DDB29E6E816DE /* FirebaseStorage */,
+				791278BDB6DE60EA851134852337EF80 /* GoogleInterchangeUtilities */,
+				B3A53B9F3743B2DC5421924FD207CD8F /* GoogleNetworkingUtilities */,
+				2611D812948F42A29156EAFDC43B3AC3 /* GoogleSymbolUtilities */,
+				E75B26254B8BD4186C26CA856A236FDB /* GoogleUtilities */,
+				59F2C87B3521276D008F1C164599FB62 /* PasswordTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E75B26254B8BD4186C26CA856A236FDB /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				92A5A8E8570D03A4645FD82CE2FAA56E /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		EA77D9A89C1CE2B8628BA3CA7D836795 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05D1AEC6143FA3F553AB1DCE7B1D5BBF /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF1B0917EB89F97865E2A0A8749E87AC /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				EA77D9A89C1CE2B8628BA3CA7D836795 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		F3A2C6D90DC6D43CDDBE350D8E9AB3E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E79292CA780296218252BC9985C92C76 /* GoogleNetworkingUtilities.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -625,20 +643,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					8070A5E836A878B9D3DBB7A9AD95A34D = {
-						LastSwiftMigration = 0800;
-					};
-					90FAFD2FD4482558F13987F3B56380B0 = {
-						LastSwiftMigration = 0800;
-					};
-					CD224835B4F019D856E8192E2C5744D6 = {
-						LastSwiftMigration = 0800;
-					};
-					DAEFE5845A9A47287B43BE713DFD4B08 = {
-						LastSwiftMigration = 0800;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -803,7 +807,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -812,7 +815,7 @@
 		};
 		3902155A9C270EF86054577F587A3598 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CF6544854F75166C62C27D5D0F4A4A9 /* ALCameraViewController.xcconfig */;
+			baseConfigurationReference = 80E9B4C4C431A77DA64F1A508CE85AD9 /* ALCameraViewController.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -833,7 +836,6 @@
 				PRODUCT_NAME = ALCameraViewController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -905,7 +907,6 @@
 				PRODUCT_NAME = Pods_ChoiceSNS;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -914,7 +915,7 @@
 		};
 		57F2208D69F25B61480550B51A2D105F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E36BD4AD8B42F8C704DD8872E6E29B0D /* PasswordTextField.xcconfig */;
+			baseConfigurationReference = AF22CEF9FDAD68BE0E461F2DD6B1877C /* PasswordTextField.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -936,7 +937,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -945,7 +945,7 @@
 		};
 		5D37934083503C96CB7DF6753C3A5673 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E36BD4AD8B42F8C704DD8872E6E29B0D /* PasswordTextField.xcconfig */;
+			baseConfigurationReference = AF22CEF9FDAD68BE0E461F2DD6B1877C /* PasswordTextField.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -966,7 +966,6 @@
 				PRODUCT_NAME = PasswordTextField;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -975,7 +974,7 @@
 		};
 		5ED1B8A3BB9860515AC79E3CA891FD75 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E36BD4AD8B42F8C704DD8872E6E29B0D /* PasswordTextField.xcconfig */;
+			baseConfigurationReference = AF22CEF9FDAD68BE0E461F2DD6B1877C /* PasswordTextField.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PasswordTextField";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -985,7 +984,6 @@
 				PRODUCT_NAME = PasswordTextField;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
@@ -993,7 +991,7 @@
 		};
 		6D97E5852CC530A59918EB986125E0C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CF6544854F75166C62C27D5D0F4A4A9 /* ALCameraViewController.xcconfig */;
+			baseConfigurationReference = 80E9B4C4C431A77DA64F1A508CE85AD9 /* ALCameraViewController.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1015,7 +1013,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1066,7 +1063,7 @@
 		};
 		E2373FE620BD56EF16C0B9889B012B2C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E36BD4AD8B42F8C704DD8872E6E29B0D /* PasswordTextField.xcconfig */;
+			baseConfigurationReference = AF22CEF9FDAD68BE0E461F2DD6B1877C /* PasswordTextField.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PasswordTextField";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1076,7 +1073,6 @@
 				PRODUCT_NAME = PasswordTextField;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};

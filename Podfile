@@ -9,6 +9,7 @@ target 'ChoiceSNS' do
   pod 'Firebase/Core'
   pod 'Firebase/Database'
   pod 'Firebase/Auth'
+  pod 'Firebase/Storage'
   pod 'PasswordTextField'
 
   # Pods for ChoiceSNS

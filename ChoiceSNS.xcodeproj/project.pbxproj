@@ -20,6 +20,9 @@
 		EF774A721D9E21DB00C773E5 /* PostTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF774A711D9E21DB00C773E5 /* PostTableView.swift */; };
 		EF774A771D9E69F500C773E5 /* customUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF774A761D9E69F500C773E5 /* customUser.swift */; };
 		EF774A791D9E6AEB00C773E5 /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF774A781D9E6AEB00C773E5 /* Plan.swift */; };
+		EF77F8D91DA21281006FB5F1 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF77F8D81DA21281006FB5F1 /* SignUpVC.swift */; };
+		EF77F8DB1DA2132F006FB5F1 /* SetProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF77F8DA1DA2132F006FB5F1 /* SetProfileVC.swift */; };
+		EF77F8DD1DA223D9006FB5F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF77F8DC1DA223D9006FB5F1 /* GoogleService-Info.plist */; };
 		EF7D7ABC1DA175890005AEBB /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7D7ABB1DA175890005AEBB /* SignInVC.swift */; };
 		EF7D7AC21DA17A080005AEBB /* iconMonster.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7D7ABD1DA17A080005AEBB /* iconMonster.png */; };
 		EF7D7AC31DA17A080005AEBB /* iconBell.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7D7ABE1DA17A080005AEBB /* iconBell.png */; };
@@ -55,6 +58,9 @@
 		EF774A711D9E21DB00C773E5 /* PostTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableView.swift; sourceTree = "<group>"; };
 		EF774A761D9E69F500C773E5 /* customUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customUser.swift; sourceTree = "<group>"; };
 		EF774A781D9E6AEB00C773E5 /* Plan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
+		EF77F8D81DA21281006FB5F1 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		EF77F8DA1DA2132F006FB5F1 /* SetProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetProfileVC.swift; sourceTree = "<group>"; };
+		EF77F8DC1DA223D9006FB5F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EF7D7ABB1DA175890005AEBB /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		EF7D7ABD1DA17A080005AEBB /* iconMonster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconMonster.png; sourceTree = "<group>"; };
 		EF7D7ABE1DA17A080005AEBB /* iconBell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconBell.png; sourceTree = "<group>"; };
@@ -104,6 +110,8 @@
 		EF400C081DA20E770028E9FC /* SignUpViews */ = {
 			isa = PBXGroup;
 			children = (
+				EF77F8D81DA21281006FB5F1 /* SignUpVC.swift */,
+				EF77F8DA1DA2132F006FB5F1 /* SetProfileVC.swift */,
 			);
 			name = SignUpViews;
 			sourceTree = "<group>";
@@ -136,6 +144,7 @@
 				EF774A5E1D9E15E500C773E5 /* Assets.xcassets */,
 				EF774A601D9E15E500C773E5 /* LaunchScreen.storyboard */,
 				EF774A631D9E15E500C773E5 /* Info.plist */,
+				EF77F8DC1DA223D9006FB5F1 /* GoogleService-Info.plist */,
 				EF774A751D9E69C700C773E5 /* Classes */,
 			);
 			path = ChoiceSNS;
@@ -263,6 +272,7 @@
 				EF774A5F1D9E15E500C773E5 /* Assets.xcassets in Resources */,
 				EFE5E4791D9EA4A50078FB78 /* iconCircleChart.png in Resources */,
 				EF774A5D1D9E15E500C773E5 /* Main.storyboard in Resources */,
+				EF77F8DD1DA223D9006FB5F1 /* GoogleService-Info.plist in Resources */,
 				EFAA4E691D9FE6B3007B098C /* imgPlan1_A.jpeg in Resources */,
 				EFE5E4701D9E872E0078FB78 /* imgMoon.jpeg in Resources */,
 				EF774A6C1D9E1ED900C773E5 /* imgJjajang.jpg in Resources */,
@@ -329,6 +339,7 @@
 				EF774A5A1D9E15E500C773E5 /* MainVC.swift in Sources */,
 				EF774A581D9E15E500C773E5 /* AppDelegate.swift in Sources */,
 				EF774A791D9E6AEB00C773E5 /* Plan.swift in Sources */,
+				EF77F8D91DA21281006FB5F1 /* SignUpVC.swift in Sources */,
 				EFAA4E6C1D9FEAF0007B098C /* WritePostVC.swift in Sources */,
 				EFE5E47E1D9EA7BE0078FB78 /* MiniCommentTableView.swift in Sources */,
 				EFE5E4721D9E8AE40078FB78 /* customPost.swift in Sources */,
@@ -336,6 +347,7 @@
 				EF774A771D9E69F500C773E5 /* customUser.swift in Sources */,
 				EF774A701D9E1F1800C773E5 /* PostCell.swift in Sources */,
 				EF774A721D9E21DB00C773E5 /* PostTableView.swift in Sources */,
+				EF77F8DB1DA2132F006FB5F1 /* SetProfileVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

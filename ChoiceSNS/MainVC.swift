@@ -24,9 +24,6 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         tblPost.delegate = self
         tblPost.dataSource = self
         
-        for _ in 1...20 {
-            postList.append(customPost())
-        }
     }
     
     override func didReceiveMemoryWarning() {

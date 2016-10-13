@@ -22,3 +22,6 @@
 
 ## Write Post View
 ![Alt text](/Screenshot/imgWritePost.png)
+
+## Choiced Post View
+![Alt text](/Screenshot/imgChoicedPost.png)

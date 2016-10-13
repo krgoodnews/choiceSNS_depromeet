@@ -5,12 +5,10 @@
 
 
 ![Alt text](/Screenshot/imgSignIn.png)
+## 로그인화면
+> PasswordTextField(오픈소스 라이브러리)를 사용, 패스워드를 쓸 때 버튼을 누르면 자신이 쓴 패스워드를 볼 수 있다.
+> 로그인 / 회원가입 버튼
 
-<div>
-  
-  <img class="img-valign" path="/Screenshot/imgSignIn.png" alt="" />
-  <span class="text1">some text1</span>
-  <img class="img-valign" src="http://www.placehold.it/20x20" alt="" />
-  <span class="text1">some text1</span>
-  
-</div>
+![Alt text](/Screenshot/imgSignUp.png)
+
+

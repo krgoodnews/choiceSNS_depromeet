@@ -5,3 +5,12 @@
 
 
 ![Alt text](/Screenshot/imgSignIn.png)
+
+<div>
+  
+  <img class="img-valign" src="http://www.placehold.it/30x30" alt="" />
+  <span class="text1">some text1</span>
+  <img class="img-valign" src="http://www.placehold.it/20x20" alt="" />
+  <span class="text1">some text1</span>
+  
+</div>
